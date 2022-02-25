@@ -1,0 +1,33 @@
+{
+  "name": "git-deploy",
+  "version": "1.0.0",
+  "description": "前端一键自动化部署脚手架服务",
+  "main": "lib/service.js",
+  "author": {
+    "name": "wangtao"
+  },
+  "keywords": [
+    "git-deploy",
+    "cli"
+  ],
+  "bin": {
+    "git-deploy": "bin/git-deploy.js"
+  },
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/wang126525/git-deploy"
+  },
+  "dependencies": {
+    "archiver": "^5.0.2",
+    "chalk": "^4.1.0",
+    "commander": "^6.1.0",
+    "dayjs": "^1.10.4",
+    "inquirer": "^7.3.3",
+    "minimist": "^1.2.5",
+    "node-ssh": "^11.0.0",
+    "ora": "^5.1.0",
+    "prettier": "^2.1.1",
+    "util": "^0.12.4"
+  }
+}
